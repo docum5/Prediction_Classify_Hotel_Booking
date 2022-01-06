@@ -63,5 +63,11 @@ Experiment 2: Use the ensembles method and use Hyperparameter tunning for the be
 | RandomForestClassifier | 0.95     |
 
 
-
+Final Model 
+Actually, in my opinion, there is no correct answer to what model to choose. Usually, we will choose the model that gives us high accuracy. Based on our experiment above, Support Vector Machine and Random Forest give us the best accuracy (0.95). 
+Which one between them should we take?
+The model that we choose depends on the goal of our project. In this project, I do more consider about to press the false-negative/FN (machine predict the customer will come, but in reality, the customer is canceled). 
+Why did I choose to press the false-negative? 
+The aim of this model is to make more profit for the hotel business, or we just see from a business profit perspective. If the hotel can predict does the customers will be canceled or not:
+If the customer is predicted to be canceled, the hotel should not prepare that much about the reservation(e.g.breakfast). So it will be saved the hotel money expense.
 
