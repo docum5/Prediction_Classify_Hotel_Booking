@@ -1,5 +1,5 @@
 # Prediction_Classify_Hotel_Booking
-### Prediction models to classify a hotel booking׳s likelihood to be canceled.
+This project applies basic machine learning concepts on data collected to make prediction models to classify a hotel booking׳s likelihood to be canceled.
 
 ## Goal
 This project aims to develop a model to classify whether hotel booking is to be canceled or not.
