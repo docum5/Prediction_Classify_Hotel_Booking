@@ -40,6 +40,11 @@ In general, we found that customers are more likely to cancel a booking when the
 + Have no special requests.
 
 
+Market Segment Percentag           | Meal Type Percentagee    | Total of Special Requests Percentage
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/marketsegment.png?raw=true)  | ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/mealtype.png?raw=true) | ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/specialreq.png?raw=true)
+
+
 However, customers are more likely to retain a booking when they:
 + There are repeat guests.
 + Come from the following market segment:
@@ -48,6 +53,12 @@ However, customers are more likely to retain a booking when they:
   - Complementary
   - Aviation
 + Are classified as a group customer type.
+
+Market Segment Percentage           | Repeate Order Percentage    | Total of Special Requests
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/marketsegment.png?raw=true)  | ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/repeateguests.png?raw=true) | ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/customertype.png?raw=true)
+
+
 
 These statistics can be useful for marketing towards customers, to increase booking retention, or they can be used to help a company focus on areas of improvement.
 
