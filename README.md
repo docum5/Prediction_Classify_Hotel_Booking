@@ -6,6 +6,9 @@
   * [Abstract](#abstract)
   * [The Data](#the-data)
   * [Analysis](#analysis)
+  * [Modeling](#modeling)
+    - [Experiment 1](#experiment-1-scalingnormalize-the-data-using-minmaxscaler-and-do-hyperparameter-tunning-for-the-best)
+    - [Experiment 2](#experiment-2-use-the-ensembles-method-and-use-hyperparameter-tunning-for-the-best-one)
   * [Final Model](#final-model)
   * [Conclusion](#conclusion)
 
@@ -47,6 +50,8 @@ However, customers are more likely to retain a booking when they:
 + Are classified as a group customer type.
 
 These statistics can be useful for marketing towards customers, to increase booking retention, or they can be used to help a company focus on areas of improvement.
+
+## Modeling
 
 ### Experiment 1: Scaling/Normalize the data using MinMaxScaler and do Hyperparameter tunning for the best 
 
