@@ -25,7 +25,7 @@ The purpose of this report will be to use the Trivago Booking Data to classify h
 
 ## The Data 
 
-[The data was originally created and found by Nuno Antonio, Ana Almeida, and Luis Nunes for the following paper](https://www.sciencedirect.com/science/article/pii/S2352340918315191#t0040)
+[The data was originally created and found by Nuno Antonio, Ana Almeida, and Luis Nunes for the following paper](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/iscancaled.png?raw=true)
 
 
 [You can access and download the data set from Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand/activity)
@@ -34,10 +34,25 @@ In this project, I' am not using all of the data. I just used 50.000 samples dat
 
 ## Analysis
 
-In general, we found that customers are more likely to cancel a booking when they have the following features:
-+ Reserved a booking with a full-board meal.
-+ Reserved a booking from the group's market segment.
-+ Have no special requests.
+- 37,1 % of customers in this data cancelled their reservations. 
+
+Summarize the class distribution
+:-------------------------:
+![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/iscancaled.png?raw=true)
+
+- The average of guests staying in the hotel is 3-4 days. The guest average stayed for one night on the weekend and stayed two nights on the weekdays.
+
+- The cost average for every room is $102.00/night. Based on the graph below, we can see that the room price is quite volatile. And the room price always significantly increases every year.
+
+The Average Room Price(EveryYear)           | The Average Room Price(EveryDay)   
+:-------------------------:|:-------------------------:
+![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/priceyear.png?raw=true)   | ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/averagestayed.PNG?raw=true) 
+
+
+- In general, we found that customers are more likely to cancel a booking when they have the following features:
+  + Reserved a booking with a full-board meal.
+  + Reserved a booking from the group's market segment.
+  + Have no special requests.
 
 
 Market Segment Percentag           | Meal Type Percentagee    | Total of Special Requests Percentage
@@ -45,14 +60,14 @@ Market Segment Percentag           | Meal Type Percentagee    | Total of Special
 ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/marketsegment.png?raw=true)  | ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/mealtype.png?raw=true) | ![](https://github.com/docum5/Prediction_Classify_Hotel_Booking/blob/main/specialreq.png?raw=true)
 
 
-However, customers are more likely to retain a booking when they:
-+ There are repeat guests.
-+ Come from the following market segment:
-  - Direct
-  - Corporate
-  - Complementary
-  - Aviation
-+ Are classified as a group customer type.
+- However, customers are more likely to retain a booking when they:
+  + There are repeat guests.
+  + Come from the following market segment:
+    - Direct
+    - Corporate
+    - Complementary
+    - Aviation
+  + Are classified as a group customer type.
 
 Market Segment Percentage           | Repeate Order Percentage    | Total of Special Requests
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -60,7 +75,7 @@ Market Segment Percentage           | Repeate Order Percentage    | Total of Spe
 
 
 
-These statistics can be useful for marketing towards customers, to increase booking retention, or they can be used to help a company focus on areas of improvement.
+**These statistics can be useful for marketing towards customers, to increase booking retention, or they can be used to help a company focus on areas of improvement.**
 
 ## Modeling
 
