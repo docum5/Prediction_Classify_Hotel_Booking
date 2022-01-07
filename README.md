@@ -1,8 +1,20 @@
-# Prediction_Classify_Hotel_Booking
-This project applies basic machine learning concepts on data collected to make prediction models to classify a hotel booking׳s likelihood to be canceled.
+# Prediction Classify Hotel Booking
+
+## Table of Content
+  * [Business Problem](#business-problem)
+  * [Goal](#goal)
+  * [Abstract](#abstract)
+  * [The Data](#the_data)
+  * [Analysis](#analysis)
+  * [Final Model](#final_model)
+  * [Conclusion](#conclusion)
+
+## Business Problem 
+Hotel cancellation rates have been steadily rising for years, in part fueled by a culture of ‘book now, pay later’ created by OTA giants. As a hotelier, it’s important for you to be aware of the patterns because it will help you to determine how to combat the issue. Back in 2019, D-Edge Hospitality Solutions reported that the [global cancellation rate of hotel reservations reached 40%](https://hospitalitytech.com/global-cancellation-rate-hotel-reservations-reaches-40-average)(with the direct website channel keeping the lowest cancellation rate). It’s imperative as a hotelier that you do not ignore this growing behaviour, it’s crucial you use all the tools at your disposal to minimise the upset to your revenue.
+
 
 ## Goal
-This project aims to develop a model to classify whether hotel booking is to be canceled or not.
+This project applies basic machine learning concepts on data collected to make prediction models to classify a hotel booking׳s likelihood to be canceled. This project aims to develop a model to classify whether hotel booking is to be canceled or not. 
 
 
 ## Abstract
@@ -82,5 +94,7 @@ The model that we choose depends on the goal of our project. In this project, I 
 **Why did I choose to press the false-negative?**
 The aim of this model is to make more profit for the hotel business, or we just see from a business profit perspective. If the hotel can predict does the customers will be canceled or not:
 
-If the customer is predicted to be canceled, the hotel should not prepare that much about the reservation(e.g.breakfast). So it will be saved the hotel money expense.
+If the customer is predicted to be canceled, the hotel should not prepare that much about the reservation(e.g.breakfast). So it will be saved the hotel money expense. 
 
+## Conclusion
+With this information hotels can, for example, contact clients that the model predicted will cancel in order to get a cancellation earlier - so they can have more time to resell the room. Or perhaps approach the client in a way to make them feel special and keep their reservation and therefore cancel the others he or she had made in other hotels in the same city.
