@@ -4,9 +4,9 @@
   * [Business Problem](#business-problem)
   * [Goal](#goal)
   * [Abstract](#abstract)
-  * [The Data](#the_data)
+  * [The Data](#the-data)
   * [Analysis](#analysis)
-  * [Final Model](#final_model)
+  * [Final Model](#final-model)
   * [Conclusion](#conclusion)
 
 ## Business Problem 
