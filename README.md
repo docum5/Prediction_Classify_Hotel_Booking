@@ -1,5 +1,12 @@
 # Prediction Classify Hotel Booking
 
+
+<p align="center">
+  <img src="http://travelplanner.co.in/images/hotel/hotel-main.jpg" />
+</p>
+
+
+
 ## Table of Content
   * [Business Problem](#business-problem)
   * [Goal](#goal)
